@@ -22,7 +22,7 @@ Open Source Final 프로젝트는 기본적으로 Linux기반의 환경에서 �
 docker build -t (image name) .
 ```
 
-2. Run container and execute essential shell script
+2. Run container and execute essential shell script : You don't need additional python installation of using `init.py` script
 
 ```
 # With docker command
