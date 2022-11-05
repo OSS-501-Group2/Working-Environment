@@ -25,8 +25,16 @@ docker build -t (image name) .
 2. Run container and execute essential shell script
 
 ```
+# With docker command
 docker run -d --privileged --name (container name) -v $(pwd)/(local mount directory):/home -p 9101:22 --restart=unless-stopped (image name) /sbin/init 
 && 
 docker exec (container name) entrypoint.sh
+
+# With init script
+# -n : name of docker container
+# -v : local volume mount ex) sure things but $(pwd)...etc is available also
+# -p : port
+# -i : image name
+python3 init.py -n (value) -v (value) -p (value) -i (value)
 ```
 ***
