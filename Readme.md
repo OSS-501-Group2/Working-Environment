@@ -7,7 +7,7 @@ Open Source Final 프로젝트는 기본적으로 Linux기반의 환경에서 �
 ## Image information
 - Base : Cent OS:latest
 - Volume
-    - /home
+    - /root
 - Port
     - 22 : For ssh
 - Privileged : True (Require system D-Bus)
