@@ -38,3 +38,5 @@ docker exec (container name) entrypoint.sh
 python3 init.py -n (value) -v (value) -p (value) -i (value)
 ```
 ***
+## Example Feature
+<img width="932" alt="image" src="https://user-images.githubusercontent.com/45956041/200820255-333c7e8c-6ac5-4e8d-a16d-8f20802ffb07.png">
