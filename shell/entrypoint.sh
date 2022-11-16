@@ -16,6 +16,8 @@ printConsole "Install & Configuring SSH"
 yum install -y sudo
 #Install Development Tools
 yum groupinstall -y "Development Tools"
+#Install readline devel
+yum install -y readline-devel
 # Install sshd
 yum install -y openssh-server
 # Install vim
